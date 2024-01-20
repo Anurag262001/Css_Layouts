@@ -1,0 +1,39 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.sec1{
+    border: 2px solid red;
+    width: 80%;
+    margin: 50px auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid cyan;
+    justify-content: space-between;
+    gap: 10px;
+}
+.col{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 90%;
+}
+.f{
+    display: none;
+}
+@media(max-width:1234px){
+      .row{
+        display: flex;
+        flex-direction: column;
+      }
+      img{
+        width: 100%;
+      }
+}
